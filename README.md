@@ -2,6 +2,6 @@
 
 A template for .NET console app with command line arguments
 
-Uses https://www.nuget.org/packages/CommandLineParser/ for command line argument parsing.
+Uses System.CommandLine, read more from https://learn.microsoft.com/en-us/dotnet/standard/commandline/
 
-Help via https://github.com/commandlineparser/commandline
+Different commands are structured to Commands folder and implemented as classes.
